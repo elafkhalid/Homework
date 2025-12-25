@@ -1,0 +1,36 @@
+body{background-color:#eee; margin:0px;}
+
+@font-face{font-family:"title"; src:url("title.ttf");}
+@font-face{font-family:"texts"; src:url("texts.ttf");}
+a{text-decoration:none; color:rgb(200,0,200);}
+#header{width:100%; 
+background-image:linear-gradient(to top,rgba(200,0,200,1),rgba(200,0,200,0.5)); color:white;
+font-family:"title"; font-size:18pt; height:16,,%;
+}
+#header i{font-family:"texts"; font-size:14pt;}
+#header nav{width:100%; background-color:#fff;}
+#header nav a{font-family:"texts"; border-right:0.5px rgb(200,0,200) solid; padding:2px; text-decoration:none; font-size:14pt; color:rgb(200,0,200);}
+#matto a{color:white; background-color:rgb(200,0,200); padding:2%; font-size:10pt; text-decoration:none; border-radius:0px 20px;}
+#services{padding:2%; margin-top:20%;}
+#services ul{list-style-type:none;}
+#services ul li{display:inline; color:white; background-color:#aaa; padding:5px; margin:1%; font-size:6pt;}
+#projects{ overflow:hidden; height:auto; padding:0px;
+font-family:"texts"; color:#333;
+}
+#projects figure{width:500%; height:50%; margin:0px; margin-top:0px; float:left; animation:slider infinite 20s;}
+#projects figure img{width:20%; height:100%; margin-left:-2px;}
+#about{font-family:"texts"; margin-top:5%; padding:2%; color:#333;}
+#contact{margin-top:5%; background-image:linear-gradient(rgba(200,0,200,1),rgba(200,0,200,0)); height:auto;}
+#field{width:75%; border:none; background-color:white; color:#333; font-family:"texts"; margin-bottom:2%;}
+#send{width:75%; margin-bottom:5%; color:white; background-color:rgb(0,200,0); font-family:"texts"; padding:5px; border:none;}
+@keyframes slider{
+	0%{margin-left:0%;}
+20%{margin-left:0%;}
+25%{margin-left:-100%;}	
+45%{margin-left:-100%;}	
+50%{margin-left:-200%;}
+70%{margin-left:-200%;}
+75%{margin-left:-300%;}	
+95%{margin-left:-300%;}
+100%{margin-left:-300%;}
+}
